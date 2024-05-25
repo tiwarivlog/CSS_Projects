@@ -1,6 +1,15 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
 body{
     border:9px solid black;
-    
 }
 
 
@@ -11,7 +20,7 @@ body{
     height:100%;
     margin-left:12.5vw;
     margin-top:13vh;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 /* header image styling */
