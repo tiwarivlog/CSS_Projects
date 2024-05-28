@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   <div class="container">
+
+            <h1>Job Application <span>(web)</span></h1>
+            <br><br>
+            <form class="grid-container">
+                <div class="grid-item" id="grid-1">
+                <p><label for="first-name">First Name</label><p>
+                    <input type="text" name="" id="first-name">
+                </div>
+
+                <div class="grid-item" id="grid-2">
+                <p><label for="last-name">Last Name</label><p>
+                    <input type="text" name="" id="last-name">
+                </div>
+
+                <div class="grid-item" id="grid-3">
+                <p><label for="email">Email</label><p>
+                    <input type="email" name="" id="email">
+                </div>
+
+                <div class="grid-item" id="grid-4">
+                   <p><label for="job-role">Job Role</label><p>
+                    
+                    <select id="job-role" required>
+                        <option value="">Select Job Role</option>
+                        <option value="">Frontend Dev</option>
+                        <option value="">Backend Dev</option>
+                        <option value="">UI/UX</option>
+                        <option value="">Cloud</option>
+                        <option value="">Testing</option>
+                    </select>
+                </div>
+
+                <div class="grid-item" id="grid-5">
+                <p><label for="address">Address</label><p>
+                    <textarea name="" id="address" rows=""></textarea>
+                </div>
+
+                <div class="grid-item" id="grid-6">
+                <p><label for="City">City</label><p>
+                    <input type="text" name="" id="City">
+                </div>
+
+                <div class="grid-item" id="grid-7">
+                <p><label for="pincode">Pincode</label><p>
+                    <input type="number" name="" id="pincode" min="0" max="999999" maxlength="123456">
+                </div>
+
+                <div class="grid-item" id="grid-8">
+                <p><label for="date">Date</label><p>
+                    <input type="date" name="" id="date">
+                </div>
+
+                <div class="grid-item" id="grid-9">
+                <p><label for="Upload_Your_Cv">Upload Your Cv</label><p>
+                    <input type="file" name="" id="Upload_Your_Cv">
+                </div>
+                
+                <br>
+                <div class="grid-item" id="grid-10">
+                    <button>Apply Now</button>
+                </div>
+                
+            </form>
+    
+   </div>
+   
+</body>
+</html>
