@@ -1,0 +1,361 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --primary-color:white;
+    --primary-font-family:'Roboto', sans-serif;
+
+}
+
+/* header styling start */
+
+header{
+    border:1px solid black;
+    width:100%;
+    height:100vh;
+    background-image:url('wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+}
+
+.about-section{
+
+    /* border:1px solid white; */
+    color:var(--primary-color);
+    text-align:start;
+    text-transform: capitalize;
+    line-height:10vh;
+    font-family: var(--primary-font-family);
+    font-size:30px;
+    
+    margin-top:15%;
+    margin-left:13%;
+
+}
+
+.about-section>h2{
+    
+    font-size:60px;
+    font-weight: 300;
+}
+
+
+
+.about-section h2 span
+{
+    font-size:50%;
+}
+
+
+.about-section h1{
+    text-transform: uppercase;
+    font-size:60px;
+    font-weight: 300;
+}
+
+
+/* header styling end */
+
+/*about work section -1 styling start*/
+
+.about-work-section{
+
+    /* border:1px solid red; */
+    background-color:black;
+    text-align:center;
+    color:var(--primary-color);
+    font-family:var(--primary-font-family);
+    font-size:50px;
+    padding:2%;
+
+}
+
+.about-work-section h1{
+    font-weight:300;
+    
+}
+
+.about-work-section h1 span{
+    display: inline-block;
+    font-size:110px;
+    
+    
+}
+
+
+/*about work section-1 styling start end*/ 
+
+
+
+/* service section 2 styling start */
+
+.grid-service-container{
+    /* border:1px solid rgb(10, 10, 10); */
+    width:100%;
+    height:fit-content;
+    display:grid;
+    
+    grid-template-columns:auto auto auto;
+    justify-content:center;
+    padding-top:4%;
+    padding-bottom:4%;
+    grid-column-gap:4%;
+    
+}
+
+.grid-service-container-item{
+/* border:1px solid black; */
+width:25vw;
+height:360px;
+border-radius:5%;
+box-shadow:1px 4px 8px rgba(0, 0, 0, 0.5);
+transition:all 0.3s;
+}
+
+.grid-service-container-item:hover{
+transform: scale(1.05,1.05);
+box-shadow:4px 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.grid-service-container-item>.service-bg-img{
+    width:100%;
+    height:50%;
+    box-sizing: border-box;
+    border-top-right-radius:5%;
+    border-top-left-radius:5%; 
+    /* border:1px solid red; */
+
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+
+#item-1>.service-bg-img{
+background-image: url('peakpx\ \(1\).jpg');
+}
+
+
+#item-2>.service-bg-img{
+background-image: url('peakpx\ \(2\).jpg');
+}
+
+
+
+#item-3>.service-bg-img{
+background-image: url('—Pngtree—ui\ ux\ development\ design\ background_1568355.jpg');
+}
+
+.about-services{
+ font-family:var(--primary-font-family);
+ padding:5%;
+ text-transform: capitalize;
+ font-weight: 600;
+}
+
+.detail-about{
+    text-transform: none;
+    font-weight: 300;
+    line-height:150%;
+
+}
+
+/* service section 2 styling end */
+
+
+/* section 3 styling start */
+
+.section-3-information{
+    
+    background-color: rgb(13, 97, 90);
+    width:50%;
+    height:45vh;
+    display: inline-block;
+    font-family:var(--primary-font-family);
+    color:var(--primary-color);
+    padding:4%;
+    
+}
+.section-3-information>h1{
+    font-size:50px;
+    font-weight: 300;
+}
+
+.section-3-information>p{
+    
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color:var(--primary-color);
+}
+
+
+#about-me{
+    float: right;
+    background-color: rgb(131, 26, 26);
+}
+
+/* section 3 styling end */
+
+
+/* footer styling start  */
+
+footer div{
+    text-align: center;
+    text-transform:uppercase;
+    padding:2%;
+    width:100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: var(--primary-color);
+
+}
+
+/* footer styling end */
+
+/* 
+responsive web design */
+
+@media (min-width:320px) and (max-width:480px){
+
+    /* header styling start */
+
+    header{
+        border:1px solid black;
+        width:100%;
+        height:70vh;
+        background-image:url('wallpaperflare.com_wallpaper.jpg');
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        
+    }
+
+    .about-section{
+
+        
+        
+        text-align:center;
+        line-height:5vh;
+        margin:0 auto;
+        margin-top:15%;
+    }
+
+    .about-section>h2{
+    
+    font-size:25px;
+    font-weight: 300;
+    }
+
+    .about-section h1{
+        text-transform: uppercase;
+        font-size:25px;
+        font-weight: 300;
+        
+    }
+    
+    /* header styling end */
+
+    /*about work section -1 styling start*/
+
+    .about-work-section{
+    
+        /* border:1px solid red; */
+        background-color:black;
+        text-align:center;
+        color:var(--primary-color);
+        font-family:var(--primary-font-family);
+        font-size:15px;
+        padding:2%;
+    
+    }
+    
+    .about-work-section h1{
+        font-weight:300;
+        padding:1%;
+    }
+    
+    .about-work-section h1 span{
+        
+        font-size:40px;
+        
+        
+    }
+    /*about work section-1 styling start end*/ 
+    
+    /* service section 2 styling start */
+
+.grid-service-container{
+
+    /* border:1px solid rgb(10, 10, 10); */
+    width:100%;
+    height:fit-content;
+    display:grid;
+    
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto;
+    justify-content:center;
+    
+    padding-top:15%;
+    padding-bottom:15%;
+    grid-row-gap:30px;
+    
+}
+
+.grid-service-container-item{
+/* border:1px solid black; */
+width:250px;
+height:360px;
+
+}
+
+
+
+/* service section 2 styling end */
+
+
+/* section 3 styling start */
+
+.section-3-information{  
+    width:100%;
+    height:40vh;  
+}
+
+/* section 3 styling end */
+
+/* footer styling start  */
+
+/* footer styling start  */
+
+footer div{
+    text-align: center;
+    text-transform:uppercase;
+    padding:0;
+    width:100%;
+    
+    box-sizing: border-box;
+    background-color: black;
+    color: var(--primary-color);
+    
+  
+}
+
+#footer_paragarph{
+    display:inline-block;
+    margin-top:10px;
+    margin-bottom:10px;
+   
+}
+
+/*footer styling end */
+
+
+
+
+    
+}
