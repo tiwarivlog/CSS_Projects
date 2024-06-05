@@ -1,0 +1,212 @@
+*{
+    margin:0%;
+    padding:0%;
+   
+
+}
+
+/* section-1 style start */
+main{
+    overflow: hidden;
+}
+
+
+.section-1{
+    border-right:1px solid rgb(209, 199, 199);
+    
+    width:17%;
+    display:inline-block;
+    
+    position: fixed;
+    z-index:1;
+    top:0;
+    bottom:0;
+    
+    
+}
+
+
+.section-1 li{
+    border-bottom:1px solid rgb(211, 202, 202);
+    list-style-type: none;
+
+    padding:5%;
+    
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 300;
+
+    transition: all 0.4s;
+
+}
+
+.section-1 li:hover{
+    background-color: rgb(185, 183, 183);
+}
+
+.section-1 li:first-child{
+    font-size:22px;
+    font-weight: 500;
+}
+
+.section-1 li:first-child:hover{
+    background-color:white;
+}
+
+
+
+li>a{
+    text-decoration: none;
+    color:black;
+}
+
+/* section-1 style end*/
+
+
+/* section-2 style start*/
+
+
+
+.section-2{
+    /* border:1px solid black; */
+    width:80%;
+    
+    float: right;
+
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    
+    
+    font-weight: 300;
+    font-size: 14px;
+
+    line-height:22px;
+}
+
+h1{
+    font-size:20px;
+}
+
+.section-2 section{
+    padding:3%;
+}
+/* 
+div{
+    border:1px solid black;
+} */
+
+div p{
+    /* border:1px solid black; */
+    padding:1%;
+}
+
+div ul{
+    /* border:1px solid black; */
+    margin-left:2%;
+    
+}
+
+pre{
+    /* border:1px solid black; */
+    width:95%;
+    margin-left:2%;
+    border-radius:5px;
+    background-color: rgb(238, 239, 240);
+    padding:1%;
+}
+
+
+/* section-2 style end*/
+
+
+/* respnsive web designing */
+
+@media (min-width:320px) and (max-width:767px) {
+
+/* section-1 style start */
+.section-1
+ {
+    border-bottom:1px solid rgb(88, 87, 87);
+    
+    width:100%;
+    display:block;
+    
+    position:static;
+    height:170px;
+    
+    overflow: hidden;
+    overflow-y: scroll;
+    
+ }
+
+
+.section-1 li
+ {
+  
+    padding:3%;
+    
+    
+ }
+
+/* section-1 style end*/
+ 
+.section-2{
+   
+    width:100%;
+    margin-top:8%;
+    
+}
+
+div ul{
+    
+    margin-left:7%;
+    
+}
+
+pre{
+    
+    width:90%;
+    margin-left:5%;
+    white-space:pre-wrap;
+
+
+}
+
+/* section -2 styling end */
+
+}
+    
+
+@media (min-width:768px) and (max-width:1024px)
+{
+
+/* section-1 style end*/   
+.section-1 li{
+   
+    font-size:12px;
+    
+
+}
+
+
+
+
+.section-1 li:first-child{
+    font-size:18px;
+}
+
+/* section-1 style end*/
+
+/* section-2style start*/
+div ul{
+    
+    margin-left:5%;
+    
+}
+
+/* section-2style end*/
+
+
+
+}
