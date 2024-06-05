@@ -1,0 +1,688 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+section{
+    /* border:1px solid blue; */
+    padding:25px;
+    
+}
+
+
+/* header style start */
+
+
+.header-section{
+    background-color:white;
+    position:fixed;
+    top:0;
+    width:100%;
+    /* border:1px solid orange; */
+    box-shadow:3px 0px 8px 1px rgb(214, 208, 208);
+
+    z-index:1;
+
+}
+
+
+.header-logo{
+    display: inline-block;
+    
+}
+
+
+
+#menu_bar-logo{
+    
+    /* border:1px solid red; */
+    padding:1%;
+    float: right;
+    margin-right:30px;
+    margin-top:15px;
+}
+
+.menu_bar{
+    background-color: black;
+    /* border:1px solid red; */
+    width:35px;
+    height:6px;
+    
+}
+
+#menu_bar_2{
+  margin-top:5px;
+}
+#menu_bar_3{
+  margin-top:5px;
+}
+
+
+/* main container style */
+
+/* main{
+    margin-top:10%;
+} */
+
+
+/* section 1 style start */
+.section-1{
+    /* border:1px solid red; */
+    padding: 0%;
+    
+    margin-top:21vh;
+}
+
+.section-1-item{
+    /* border:1px solid blue; */
+    display: inline-block;
+    width:50%;
+    padding:3%;
+    
+}
+
+.section-1-item img{
+    /* border:1px solid black; */
+    width:90%;
+
+}
+
+
+
+#section-1-item-2{
+    float:right;
+    box-sizing: border-box;
+    padding-top:9%;
+    height:40%;
+}
+
+.section-1-item-info{
+    /* border:1px solid black; */
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+#discount{
+    background-color:green;
+    color:white;
+    display: inline-block;
+    padding:1%;
+}
+
+
+#food_taste>h1{
+ font-size:70px;
+ font-weight: 400;
+}
+
+#food_taste>p{
+    
+font-weight: 300;
+}
+
+#explore_button button{
+    background-color:orange;
+    text-transform: capitalize;
+    padding:1%;
+    border:none;
+    transition: all 0.5s;
+}
+
+#explore_button button:hover{
+    opacity:0.8;
+}
+/* section 1 style end*/
+
+/* section-2 styling start */
+
+.flex-section-2{
+   /* border: 1px solid black; */
+   display: flex;
+   flex-flow:row wrap;
+   justify-content:space-between;
+   
+   
+
+}
+
+.flex-item-section-2{
+    /* border:1px solid black; */
+    width:32%;
+    height:100px;
+    transition: all 0.3s;
+}
+
+.flex-item-section-2:hover{
+    box-shadow:2px 2px 5px 1px rgb(185, 181, 181);
+
+}
+
+
+.flex-item-section-2 div{
+    display:inline-block;
+    
+
+}
+
+.bg-img{
+    /* border:1px solid blue; */
+    height:70%;
+    width:20%;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    float: left;
+    
+}
+
+#bg-img-1{
+    background-image:url('discount.png');
+}
+
+#bg-img-2{
+    background-image:url('fresh.png');
+
+}
+
+#bg-img-3{
+    background-image:url('delivery.png');
+}
+
+
+
+.services{
+    /* border:1px solid red; */
+    width:60%;
+    height:100%;
+    float:left;
+    
+    font-family:"Roboto", sans-serif;
+    padding-top:1%;
+    padding-left:3%;
+}
+
+.services p{
+    font-weight: 300;
+}
+
+
+/* section-2 styling end*/
+
+/* after section-2 horizontal line styling  start*/
+
+
+hr{
+    background-color:rgb(187, 179, 179);
+    height:3px;
+    width:96%;
+    margin:0 auto;
+}
+
+/* after section-2 horizontal line styling  end*/
+
+/* section-3 styling start */
+
+
+/* 
+.section-3{
+    border:1px solid black;
+}
+ */
+
+
+.section-3-item{
+    /* border:1px solid black; */
+    text-align: center;
+    text-transform:capitalize;
+    width:fit-content;
+    margin:0 auto;
+    font-family:"Roboto", sans-serif;
+}
+
+.section-3>#our-menu{
+    color:white;
+    padding:0.5%;
+    background-color:green;
+    font-weight: 300;
+}
+
+/* section-3 styling end */
+
+.grid-section-4{
+
+  /* border: 1px solid red; */
+  height:130vh;
+  display: grid;
+  /* grid-template-columns:23% 23% 23% 23%;
+  grid-template-rows:35% 35% 35%; */
+  /* justify-content: center; */
+  /* align-content:space-around; */
+  
+  /* grid-column-gap:8px;
+  grid-row-gap:8px;
+  padding-bottom:6%; */
+  /* background-color:orange; */
+  grid-gap:10px;
+  grid-template-areas:
+  'grid-item-1 grid-item-1 grid-item-2 grid-item-3'
+  'grid-item-1 grid-item-1 grid-item-2 grid-item-4'
+  'grid-item-7 grid-item-6 grid-item-5 grid-item-4'
+  ;
+}
+
+.grid-items{
+ 
+/* border:1px solid black; */
+border-radius:5%;
+/* background-color: brown; */
+text-align: center;
+
+color:white;
+
+background-repeat:no-repeat;
+background-size:100% 100%;
+
+opacity:0.8;
+transition: all 1s;
+}
+
+.grid-items:hover{
+    background-size:120% 120%;
+    opacity:1;
+}
+
+#grid-item-1{
+
+    grid-area:grid-item-1;
+    background-image:url('grid_image1.png');
+}
+
+
+#grid-item-2{
+   
+    grid-area:grid-item-2;
+    background-image:url('grid_image2.png');
+}
+
+
+#grid-item-3{
+    grid-area:grid-item-3;
+    background-image:url('grid_image3.png');
+}
+
+#grid-item-4{
+    grid-area:grid-item-4;
+    background-image:url('grid_image7.png');
+}
+
+#grid-item-5{
+    grid-area:grid-item-5;
+    background-image:url('grid_image6.png');
+}
+
+
+#grid-item-6{
+    grid-area:grid-item-6;
+    background-image:url('grid_image5.png');
+}
+
+
+#grid-item-7{
+    grid-area:grid-item-7;
+    background-image:url('grid_image4.png');
+}
+
+
+/* #grid-item-8{
+    grid-area:grid-item-8;
+}
+
+
+#grid-item-9{
+    grid-area:grid-item-9;
+}
+
+
+#grid-item-10{
+    grid-area:grid-item-10;
+}
+
+
+#grid-item-11{
+    grid-area:grid-item-11;
+}
+
+
+#grid-item-12{
+    grid-area:grid-item-12;
+} */
+
+
+/* section-3 style end */
+
+/* 
+footer{
+    border:1px solid black;
+} */
+
+.flex-footer-section{
+    /* border:1px solid red; */
+    display: flex;
+    flex-flow: row wrap;
+    
+    align-content: space-between;
+    background-color: bisque;
+
+    height:40vh;
+
+}
+
+.flex-footer-section-items{
+   width:25%;
+   height:95%;
+   /* border:1px solid rgb(14, 33, 206);  */
+   padding:2%;
+
+   font-family:"Roboto", sans-serif;
+   font-weight: 300;
+   line-height:150%;
+  
+}
+
+.flex-footer-section-items>p{
+
+    color: rgb(95, 99, 100);
+    font-weight: 600;
+    margin-bottom:5%;
+    font-size: larger;
+
+}
+
+.flex-footer-section-items li{
+    list-style-type: none;
+}
+
+#flex-footer-section-item4 input{
+    height:28px;
+    width:95%;
+    /* border:1px solid black; */
+    padding-left:15%;
+    padding-right:15%;
+    
+    margin-bottom:3%;
+}
+
+#flex-footer-section-item4 li{
+    /* border:1px solid black; */
+   float:left;
+   font-size: 30px;
+   margin-right:5%;
+   
+}
+
+/* responsive design for mobile */
+
+
+@media (max-width:767px) {
+ 
+    .header-logo{
+        display: inline-block;
+        
+    }
+    
+    
+    
+    #menu_bar-logo{
+        
+        
+        float: right;
+        margin-right:10px;
+        margin-top:30px;
+    }
+    
+
+
+
+/* section 1 style start */
+.section-1{
+    /* border:5px solid rgb(21, 228, 32); */
+    padding: 0%;
+    height:fit-content;
+    margin-top:0px;
+    
+    
+}
+
+.section-1-item{
+    /* border:1px solid blue; */
+    
+    width:100%;
+    
+    
+}
+
+#section-1-item-1{
+    display:grid;
+    grid-template-columns:300px;
+    grid-template-rows:300px;
+    height:500px;
+    justify-content: center;
+    align-content: center;
+    
+    /* background-color: aquamarine; */
+   
+    /* border:5px solid red; */
+}
+
+
+.section-1-item img{
+    
+    /* border:1px solid black; */
+    margin-top:28%;
+    margin-left:5%;
+    
+}
+
+
+
+#section-1-item-2{
+    
+    height:260px;
+}
+
+
+#food_taste>h1{
+ font-size:25px;
+ font-weight: 400;
+ display: inline-block;
+ word-spacing:2%;
+ line-height:40px;
+ 
+}
+
+
+/* section-2 styling start */
+.flex-section-2{
+    padding: 0%;
+    
+}
+
+.flex-section-2{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-flow:column wrap;
+    justify-content:flex-start;
+    padding-left:3%;
+    height:fit-content;
+ 
+ }
+ 
+ .flex-item-section-2{
+     /* border:1px solid black; */
+     width:100%;
+     height: 140px;
+     margin-top:10%;
+     
+ }
+ 
+
+ 
+ .flex-item-section-2 div{
+     display:block;
+     
+ 
+ }
+ 
+ .bg-img{
+     /* border:1px solid blue; */
+     height:70px;
+     width:80px;
+     float: left;
+     
+ }
+ 
+ 
+ 
+ .services{
+     /* border:1px solid red; */
+     width:100%;
+     height:50%;
+     
+     
+     
+ }
+ 
+ 
+ /* section-2 styling end*/
+ 
+ /* section-3 style start */
+ .section-3{
+    /* border:1px solid black; */
+    padding-bottom:40px;
+    padding-top:30px;
+}
+
+/* section-3 style end */
+
+/* section-4 start */
+
+.grid-section-4{
+height:80vh;
+}
+
+
+
+/* section-4 end */
+
+/* section-3 style end */
+
+
+/* footer{
+    border:1px solid black;
+} */
+
+.flex-footer-section{
+    /* border:1px solid red; */
+    display: flex;
+    flex-flow: row wrap;
+    align-content:flex-start;
+    
+
+    height:fit-content;
+
+}
+
+.flex-footer-section-items{
+   width:100%;
+   height:150px;
+   /* border:1px solid rgb(14, 33, 206);  */
+   padding:2%;
+
+   
+}
+.flex-footer-section-items>p{
+    margin-bottom:0%;
+}
+
+#flex-footer-section-item4>p{
+    margin-bottom:5px;
+}
+
+#flex-footer-section-item4 input{
+    height:28px;
+    width:70%;
+    
+    margin-bottom:2%;
+}
+
+
+   
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/* section 1 style start */
+
+
+
+.section-1-item img{
+   
+    margin-top:5%;
+    margin-left:20px;
+}
+
+
+
+#section-1-item-2{
+   
+    padding-top:8%;
+    height:100%;
+}
+
+
+#food_taste>h1{
+ font-size:50px;
+ font-weight: 400;
+}
+
+
+/* section 1 style end*/
+
+/* section-2 start */
+
+.flex-item-section-2{
+    /* border:1px solid black; */
+    width:32%;
+    height:200px;
+   
+}
+
+
+
+.bg-img{
+   
+    height:40%;
+    width:20%;
+    
+    
+}
+
+/* section-2 end*/
+
+/* footer style start */
+
+#flex-footer-section-item1>img{
+    width:150px;
+    
+}
+
+.flex-footer-section{
+    height:fit-content;
+}
+
+
+}
+
+/* footer style end */
+
